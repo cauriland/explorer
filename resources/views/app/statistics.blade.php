@@ -1,0 +1,17 @@
+@component('layouts.app', ['isLanding' => true, 'fullWidth' => true])
+    <x-metadata page="statistics" />
+
+    @section('content')
+        <livewire:stats-highlights/>
+
+        <x-cauri-container class="bg-white dark:bg-theme-secondary-900">
+            <x-stats.insights-wrapper>
+                <livewire:stats.insight-all-time-transactions/>
+                <livewire:stats.insight-current-average-fee/>
+                <livewire:stats.insight-all-time-fees-collected/>
+            </x-stats.insights-wrapper>
+
+            <livewire:stats.chart/>
+        </x-cauri-container>
+    @endsection
+@endcomponent
