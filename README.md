@@ -1,7 +1,7 @@
 # Cauri Explorer
 
 <p align="center">
-    <img src="./banner.png" />
+    <img src="https://github.com/cauriland/explorer/raw/main/banner.png" />
 </p>
 
 [![Build Status](https://badgen.now.sh/github/status/cauriland/explorer/develop)](https://github.com/cauriland/explorer/actions?query=branch%3Adevelop)
