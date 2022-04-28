@@ -19,7 +19,7 @@ return [
             'currency'         => env('EXPLORER_NETWORK_CURRENCY', 'CAU'),
             'currencySymbol'   => env('EXPLORER_NETWORK_CURRENCY_SYMBOL', 'ꚦ'),
             'confirmations'    => intval(env('EXPLORER_NETWORK_CONFIRMATIONS', 101)),
-            'knownWallets'     => env('EXPLORER_NETWORK_KNOWN_WALLETS', 'https://raw.githubusercontent.com/cauriland/common/master/mainnet/known-wallets-extended.json'),
+            'knownWallets'     => env('EXPLORER_NETWORK_KNOWN_WALLETS', 'https://raw.githubusercontent.com/cauriland/common/main/mainnet/known-wallets-extended.json'),
             'canBeExchanged'   => env('EXPLORER_NETWORK_CAN_BE_EXCHANGED', true),
             'hasTimelock'      => env('EXPLORER_NETWORK_HAS_TIMELOCK', false),
             'epoch'            => env('EXPLORER_NETWORK_EPOCH', '2022-04-07T00:32:58.934Z'),

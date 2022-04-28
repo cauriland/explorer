@@ -35,7 +35,7 @@ it('should have all required properties', function (array $config) {
         'api'              => 'https://wallets.cauri.cm/api',
         'currencySymbol'   => 'ꚦ',
         'confirmations'    => 101,
-        'knownWallets'     => 'https://raw.githubusercontent.com/cauriland/common/master/mainnet/known-wallets-extended.json',
+        'knownWallets'     => 'https://raw.githubusercontent.com/cauriland/common/main/mainnet/known-wallets-extended.json',
         'canBeExchanged'   => true,
         'epoch'            => Mainnet::new()->epoch(),
         'delegateCount'    => 101,

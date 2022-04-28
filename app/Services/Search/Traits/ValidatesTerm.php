@@ -36,7 +36,7 @@ trait ValidatesTerm
      */
     private function couldBeUsername(string $term): bool
     {
-        // "Known wallets" are not related to anything on-chain, they are set by Cauri team and can be seen here: https://github.com/cauriland/common/tree/master/mainnet
+        // "Known wallets" are not related to anything on-chain, they are set by Cauri team and can be seen here: https://github.com/cauriland/common/tree/main/mainnet
         // They are not related to delegate usernames that are registered on-chain, meaning that they can be anything.
         // Therefore 30 character restriction is not something that's actively enforced for those names
 
